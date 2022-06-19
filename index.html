@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="assets/css/css-reset-Normalise.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Odin Landing Page Project</title>
 </head>
 <body>
-    
     <header class="header">
         <nav class="navbar">
-            <h4 class="logo">Header logo</h1>
-            <ul nav-bar-items>
+            <p class="logo">Header logo</p>
+            <ul class="navbar-items">
                 <li class="navbar-item">header link 1</li>
                 <li class="navbar-item">header link 2</li>
                 <li class="navbar-item">header link 3</li>
@@ -23,22 +23,47 @@
 
         <div class="hero">
             <div class="hero-description">
-                <p>This website is awesome</p>
-                <p>This website has some subtext that goes here under the 
+                <p class="title">This website is awesome</p>
+                <p class="description">This website has some subtext that goes here under the 
                     main title. It's smaller font and the color is lower contrast.
                 </p>
-                <button>Sign Up</button>
+                <button class="btn" style="margin-top: 5rem;">Sign Up</button>
             </div>
-            <img src="" alt="" class="landing-image">
+            <img class="landing-image"src="assets/img/Tezos_unsplashed.jpg" alt="">
         </div>
     </header>
 
     <main class="main-area">
+        <h2 class="information-header-text">Some random information.</h2>
         <section class="area-1">
-            <div class="card">card 1</div>
-            <div class="card">card 2</div>
-            <div class="card">card 3</div>
-            <div class="card">card 4</div>
+            <div class="card">
+                <div class="main-section"></div>
+                <p>
+                    this is some subtext under an
+                    illustration or image
+                </p>
+            </div>
+            <div class="card">
+                <div class="main-section"></div>
+                <p>
+                    this is some subtext under an
+                    illustration or image
+                </p>
+            </div>
+            <div class="card">
+                <div class="main-section"></div>
+                <p>
+                    this is some subtext under an
+                    illustration or image
+                </p>
+            </div>
+            <div class="card">
+                <div class="main-section"></div>
+                <p>
+                    this is some subtext under an
+                    illustration or image
+                </p>
+            </div>
         </section>
         <section class="area-2">
             <blockquote class="quote">
@@ -51,16 +76,18 @@
             <figcaption class="quote-author">-Thor, God of Thunder</figcaption>
         </section>
         <section class="area-3">
-            <div class="button-description">
-                <p>Call to action! It's time!</p>
-                <p>Sign up for our product by clicking that button right over there!</p>
+            <div class="container">
+                <div class="button-description">
+                    <p>Call to action! It's time!</p>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <button class="btn sign-up">Sign up</button>
             </div>
-            <button class="sign-up">Sign up</button>
         </section>
     </main>
 
     <footer class="footer">
-        <p>Copyright (c) The Odin Project 2022</p>
+        <p>Copyright &copy; The Odin Project 2022</p>
     </footer>
     
 
